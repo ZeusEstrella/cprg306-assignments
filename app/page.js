@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link';
-import StudentInfo from './/StudentInfo.js';
+import StudentInfo from '/app/StudentInfo';
+
 
 export default function Home() {
   return (
         <div>
           <StudentInfo />
-           <Link href="https://github.com">
-           https://github.com
-          </Link>   
+             
             <h2>Weeks</h2>
             <ul>
               <li>
